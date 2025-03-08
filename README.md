@@ -1,68 +1,67 @@
-MedTrack: A Cloud-Enabled Healthcare Management System
-Project Description
+MedTrack: A Cloud-Enabled Healthcare Management System<br>
+Project Description<br>
 MedTrack is a cloud-based healthcare management system designed to streamline patient-doctor interactions. It enables patients to book appointments, manage medical histories, and receive diagnoses online. Built using Flask for backend development, AWS EC2 for hosting, and DynamoDB for data management, the system ensures secure and efficient healthcare management.
 
-Features
+Features<br>
 User Registration & Authentication (Doctors & Patients) <br>
-Appointment Booking System
-Secure Data Storage with AWS DynamoDB
-Real-time Notifications
-IAM-Based Role Management for Secure Access
-Cloud Hosting on AWS EC2
-Flask Backend with Boto3 Integration
-Responsive Web Pages for Easy Navigation
+Appointment Booking System<br>
+Secure Data Storage with AWS DynamoDB<br>
+Real-time Notifications<br>
+IAM-Based Role Management for Secure Access<br>
+Cloud Hosting on AWS EC2<br>
+Flask Backend with Boto3 Integration<br>
+Responsive Web Pages for Easy Navigation<br>
 
-Tech Stack
+Tech Stack<br>
+Backend: Flask (Python)<br>
+Database: AWS DynamoDB<br>
+Hosting: AWS EC2<br>
+Security: AWS IAM (Identity & Access Management)<br>
+Version Control: Git/GitHub<br>
+Frontend: HTML, CSS<br>
 
-Backend: Flask (Python)
-Database: AWS DynamoDB
-Hosting: AWS EC2
-Security: AWS IAM (Identity & Access Management)
-Version Control: Git/GitHub
-Frontend: HTML, CSS
+Setup & Installation<br>
+Prerequisites<br>
+AWS Account (For EC2, DynamoDB, IAM)<br>
+Python3 & pip<br>
+Flask Framework<br>
+Boto3 for AWS Integration<br>
+Git for Version Control<br>
 
-Setup & Installation
-Prerequisites
-AWS Account (For EC2, DynamoDB, IAM)
-Python3 & pip
-Flask Framework
-Boto3 for AWS Integration
-Git for Version Control
-
-Installation Steps
-1. Clone the Repository
+Installation Steps<br>
+1. Clone the Repository<br>
 git clone <repository-url>
 cd MedTrack
-2. Set up a Virtual Environment
+2. Set up a Virtual Environment<br>
 python3 -m venv venv
 source venv/bin/activate
-3. Install Dependencies
+3. Install Dependencies<br>
 pip install -r requirements.txt
-4. Configure AWS Credentials
+4. Configure AWS Credentials<br>
 Set up AWS IAM roles for secure access.
 Update config.py with AWS access credentials.
-5. Run the Application Locally
+5. Run the Application Locally<br>
 python app.py
 Access the application at http://127.0.0.1:5000/
 
 
-Deployment on AWS EC2
-1. Launch EC2 Instance
-Choose Amazon Linux 2 or Ubuntu as the AMI.
-Open ports for HTTP (80) & SSH (22).
-2. Connect to EC2 Instance
-ssh -i <your-key.pem> ec2-user@<your-instance-public-ip>
-3. Set Up the Environment
-sudo yum update -y
-sudo yum install python3 -y
-sudo pip3 install virtualenv
-python3 -m venv venv
-source venv/bin/activate
-pip install flask boto3
-4. Deploy the Flask Application
-python app.py
-5. Access the Web App
-http://<EC2-Public-IP>:5000
+Deployment on AWS EC2<br>
+1. Launch EC2 Instance<br>
+Choose Amazon Linux 2 or Ubuntu as the AMI.<br>
+Open ports for HTTP (80) & SSH (22).<br>
+2. Connect to EC2 Instance<br>
+ssh -i <your-key.pem> ec2-user@<your-instance-public-ip><br>
+3. Set Up the Environment<br>
+sudo yum update -y<br>
+sudo yum install python3 -y<br>
+sudo pip3 install virtualenv<br>
+python3 -m venv venv<br>
+source venv/bin/activate<br>
+pip install flask boto3<br>
+4. Deploy the Flask Application<br>
+python app.py<br>
+5. Access the Web App<br>
+http://<EC2-Public-IP>:5000<br>
 
 Project Workflow
 1. AWS Account Setup & IAM Configuration
