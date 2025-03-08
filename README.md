@@ -3,7 +3,7 @@ Project Description
 MedTrack is a cloud-based healthcare management system designed to streamline patient-doctor interactions. It enables patients to book appointments, manage medical histories, and receive diagnoses online. Built using Flask for backend development, AWS EC2 for hosting, and DynamoDB for data management, the system ensures secure and efficient healthcare management.
 
 Features
-User Registration & Authentication (Doctors & Patients)
+User Registration & Authentication (Doctors & Patients) <br>
 Appointment Booking System
 Secure Data Storage with AWS DynamoDB
 Real-time Notifications
