@@ -71,26 +71,26 @@ Project Workflow
 5. Testing & Debugging
 6. Production Deployment
 
-User Guide
-For Patients:
-Register/Login
-Book Appointments
-View Medical History
-Receive Diagnosis Reports
+User Guide<br>
+For Patients:<br>
+Register/Login<br>
+Book Appointments<br>
+View Medical History<br>
+Receive Diagnosis Reports<br>
 
-For Doctors:
-Login to the Dashboard
-View Patient Appointments
-Submit Diagnoses & Treatment Plans
+For Doctors:<br>
+Login to the Dashboard<br>
+View Patient Appointments<br>
+Submit Diagnoses & Treatment Plans<br>
 
-Database Schema
-Users Table
-Appointments Table
+Database Schema<br>
+Users Table<br>
+Appointments Table<br>
 
-Testing
-Functional Testing: User registration, login, appointment booking
-Database Testing: Data retrieval from DynamoDB
-Security Testing: AWS IAM Role-Based Access
+Testing<br>
+Functional Testing: User registration, login, appointment booking<br>
+Database Testing: Data retrieval from DynamoDB<br>
+Security Testing: AWS IAM Role-Based Access<br>
 
-Conclusion
+Conclusion<br>
 MedTrack is a scalable, secure, and efficient cloud-based healthcare management system. By leveraging AWS services, it enhances patient-doctor interactions, streamlining the process of appointment booking and medical data management.
